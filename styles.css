@@ -1,0 +1,44 @@
+.dfa-page {
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "header-2 header-2 header-2"
+    /* "body-info body-info body-info" */
+    "photo body-name post"
+    "photo body-name post"
+    "footer footer footer";
+}
+
+.header {
+  background: black;
+  /* background-color: gray; */
+  grid-area: header;
+}
+.header-2 {
+  background: #004878;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  grid-area: header-2;
+}
+.body-name {
+  grid-area: body-name;
+}
+.footer {
+  /* background: green; */
+  grid-area: footer;
+}
+#post {
+  grid-area: post;
+}
+#photo {
+  grid-area: photo;
+}
+/* #body-info {
+  background: hotpink;
+  grid-area: body-info;
+} */
+a {
+  color: gray;
+  text-decoration: none;
+  text-transform: uppercase;
+}
